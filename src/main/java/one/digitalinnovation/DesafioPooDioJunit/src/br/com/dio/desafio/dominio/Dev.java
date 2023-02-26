@@ -89,7 +89,7 @@ public class Dev {
 
 	@Override
 	public String toString() {
-		return "Conteudos Inscritos " + getNome() + ": " + getConteudosInscritos();
+		return "Conteudos Inscritos: " + getNome() + ": " + getConteudosInscritos();
 	}
 
 }

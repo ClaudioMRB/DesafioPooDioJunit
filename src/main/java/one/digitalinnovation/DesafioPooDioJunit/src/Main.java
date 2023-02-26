@@ -18,6 +18,7 @@ public class Main {
 
 		Bootcamp bootcamp = new Bootcamp("Bootcamp Java Developer", "Descricao Bootcamp Java Developer", curso1, curso2,
 				mentoria);
+		
 
 		Dev devCamila = new Dev("Camila", bootcamp);
 
@@ -25,19 +26,19 @@ public class Main {
 		devCamila.progredir();
 		devCamila.progredir();
 		System.out.println("-");
-		System.out.println("Conteudos Concluidos Camila:" + devCamila.getConteudosConcluidos());
-		System.out.println("XP:" + devCamila.calcularTotalXp());
-
+		System.out.println("Conteudos Concluidos Camila:" + devCamila.getConteudosConcluidos() + "\nXP:" + devCamila.calcularTotalXp());
+		
+		System.out.println();
 		System.out.println("-------");
-
+		System.out.println();
 		Dev devJoao = new Dev("Joao", bootcamp);
 		System.out.println(devJoao.toString());
 		devJoao.progredir();
 		devJoao.progredir();
 		devJoao.progredir();
 		System.out.println("-");
-		System.out.println("Conteudos Concluidos Joao:" + devJoao.getConteudosConcluidos());
-		System.out.println("XP:" + devJoao.calcularTotalXp());
+		System.out.println("Conteudos Concluidos Joao:" + devJoao.getConteudosConcluidos() + "\nXP:" + devJoao.calcularTotalXp());
+		System.out.println();
 
 	}
 

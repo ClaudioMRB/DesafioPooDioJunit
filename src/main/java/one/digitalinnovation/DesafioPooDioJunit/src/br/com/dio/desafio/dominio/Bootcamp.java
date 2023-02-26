@@ -16,8 +16,10 @@ public class Bootcamp {
 	private Set<Dev> devsInscritos = new HashSet<>();
 	private Set<Conteudo> conteudos = new LinkedHashSet<>();
 
-	List<Conteudo> conteudo = new ArrayList<>();
-
+	
+	
+	
+	
 	public Bootcamp() {
 	}
 
